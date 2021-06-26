@@ -89,9 +89,6 @@ name: 'usage',
             }
         }
 },
-
-
-
 {
     type: "list",
         name: "license",
