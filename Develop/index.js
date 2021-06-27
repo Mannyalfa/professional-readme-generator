@@ -52,10 +52,10 @@ const questions = [
 },
 {
     type: 'input',
-        name: 'descr',
+        name: 'desc',
             message: 'Enter project description',
-                validate: descrInput => {
-                    if (descrInput) {
+                validate: descInput => {
+                    if (descInput) {
                         return true;
                     } else {
                         console.log('Enter project description to continue');
@@ -67,8 +67,8 @@ const questions = [
     type: 'input',
         name: 'install',
             message: 'Steps required to install project',
-                validate: descrInput => {
-                    if (descrInput) {
+                validate: installInput => {
+                    if (installInput) {
                         return true;
                     } else {
                         console.log('Enter steps required to install project');
