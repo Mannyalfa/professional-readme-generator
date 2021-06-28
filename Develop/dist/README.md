@@ -1,3 +1,4 @@
+![image](https://img.shields.io/badge/license-MIT-green)
 # Professional README Generator
   ===================================================================================
 ## Table of Contents:
@@ -9,13 +10,13 @@
     *[Credits](#credits)
 
     ## Description:
-        A GitHub profile is an extremely important aspect of a developer's public identity. A well-crafted showcases work to other developers as well as potential employers. An important component of a GitHub profile—and one that many new developers often overlook—is the README.md file.
+        A GitHub profile is an extremely important aspect of a developer's public identity. A well-crafted showcases work to other developers as well as potential employers. An important component of a GitHub profile—and one that many new developers often overlook—is the README.md file. This application will be an invaluable tool throughout the rest of this bootcamp and beyond...
 
     ## Installation:
-        Develop @cmd prompt "node index" return
+        command prompt: npm i, then node index
 
     ## Usage:
-        used to showcase work
+        examples are referenced below
 
     ## License:
         MIT
@@ -26,8 +27,11 @@
     ## Languages/Applications:
         JavaScript,JSON,Inquirer,NPM
 
+    ## Repository URL:
+      https://github.com/Mannyalfa/professional-readme-generator 
+
     ## Website:
-        none   
+        https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT   
     
     ## Credits:
         Manny Alfaro

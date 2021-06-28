@@ -92,10 +92,16 @@ const questions = [
         choices: ["MIT", "Apache", "Mozilla", "IBM", "ZLIB", "None"]
     },
     {
-        type: "checkbox",
+        type: 'checkbox',
         name: "language",
         message: "Enter languages and applications used to develop and deploy this project:",
         choices: ["HTML", "CSS", "JavaScript", "JSON", "Inquirer", "NPM"]
+    },
+
+    {
+        type: 'input',
+        name: "apprepo",
+        message: 'Enter repository URL',
     },
 
     {

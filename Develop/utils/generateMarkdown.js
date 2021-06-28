@@ -68,6 +68,9 @@ function generateMarkdown(data) {
     ## Languages/Applications:
         ${data.language}
 
+    ## Repository URL:
+      ${data.appUrl} 
+
     ## Website:
         ${data.appUrl}   
     
