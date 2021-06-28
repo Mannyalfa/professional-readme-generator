@@ -44,37 +44,41 @@ function generateMarkdown(data) {
   ===================================================================================
 # Table of Contents:
 
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[License](#license)
-    *[Languages/Applications](#languages/applications)
-    *[Credits](#credits)
+    1.[Description](#description)
+    2.[Installation](#installation)
+    3.[Usage](#usage)
+    4.[License](#license)
+    5.[Image](#Image)
+    6.[Languages/Applications](#languages-applications)
+    7.[Repository URL](#repository-url)
+    8.[Website](#website)
+    9.[Credits](#credits)
 
-# Description:
+# Description
 ${data.desc}
 
-# Installation:
+# Installation
 ${data.install}
 
-# Usage:
+# Usage
 ${data.usage}
 
-# License:
+# License
 ${data.license}
 
-# Image:
+# Image
 ![screenshot](${data.imageGif})
 
-# Languages/Applications:
+# Languages/Applications
 ${data.language}
 
-# Repository URL:
+# Repository URL
 ${data.appUrl} 
 
-# Website:
+# Website
 ${data.appUrl}   
     
-# Credits:
+# Credits
 ${data.creditRef}
 
 ## If you have any additional questions regarding this project, please contact: ${data.emailAddress}
