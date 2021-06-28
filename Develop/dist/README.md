@@ -1,7 +1,6 @@
 # Professional README Generator
   
-  ## Table of Contents:
-
+## Table of Contents:
 1.[Description](#description)
 2.[Installation](#installation)
 3.[Usage](#usage)
@@ -28,13 +27,13 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 ![screenshot](https://github.com/Mannyalfa/professional-readme-generator/blob/master/Develop/assets/screenshot.png)
 
 ## Languages/Applications
-CSS,JavaScript,JSON,Inquirer,NPM
+JavaScript,JSON,Inquirer,NPM
 
 ## Repository URL
-https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT 
+https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT  
 
 ## Website
-https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT   
+https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT    
     
 ## Credits
 Manny Alfaro
