@@ -1,20 +1,21 @@
-# Professional README Generator
+# myproject
   ===================================================================================
 ## Table of Contents:
 
     *[Installation](#installation)
     *[Usage](#usage)
     *[License](#license)
+    *[Languages/Applications](#languages/applications)
     *[Credits](#credits)
 
     ## Description:
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        good stuff
 
     ## Installation:
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        many
 
     ## Usage:
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        just do it
 
     ## License:
         MIT
@@ -22,20 +23,14 @@
     ## Image:
         none
 
+    ## Languages/Applications:
+        JavaScript,JSON,Inquirer,NPM
+
     ## Website:
         none   
     
     ## Credits:
-        Manny Alfaro
+        me
 
-    #### If you have any additional questions regarding this project, please contact: mannyalfa@gmail.com
+    #### If you have any additional questions regarding this project, please contact: mannyalfa
 
-
-
-
-
-
-
-
-
-     

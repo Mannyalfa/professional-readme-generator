@@ -18,60 +18,64 @@ function renderLicenseBadge(license) {
     return `
       [![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
       `
-    }
-  
+  }
+
   else if (license === 'IBM') {
-      return `
+    return `
       [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
       `
-    }
+  }
 
-    else if (license === 'ZLIB') {
-      return `
+  else if (license === 'ZLIB') {
+    return `
       [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib) 
         `
-    }
-    // If there is no license, return an empty string
-    else if(license === 'None'){
-      return ` `
-    }
-  
-  };
-  
+  }
+  // If there is no license, return an empty string
+  else if (license === 'None') {
+    return ` `
+  }
+
+};
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-  return `# ${ data.projectName }
+  return `# ${data.projectName}
   ===================================================================================
 ## Table of Contents:
 
     *[Installation](#installation)
     *[Usage](#usage)
     *[License](#license)
+    *[Languages/Applications](#languages/applications)
     *[Credits](#credits)
 
     ## Description:
-        ${ data.desc }
+        ${data.desc}
 
     ## Installation:
-        ${ data.install }
+        ${data.install}
 
     ## Usage:
-        ${ data.usage }
+        ${data.usage}
 
     ## License:
-        ${ data.license }
+        ${data.license}
 
     ## Image:
-        ${ data.imageGif }
+        ${data.imageGif}
+
+    ## Languages/Applications:
+        ${data.language}
 
     ## Website:
-        ${ data.appUrl }   
+        ${data.appUrl}   
     
     ## Credits:
-        ${ data.creditRef }
+        ${data.creditRef}
 
-    #### If you have any additional questions regarding this project, please contact: ${ data.emailAddress }
+    #### If you have any additional questions regarding this project, please contact: ${data.emailAddress}
 
 
 
@@ -82,7 +86,7 @@ function generateMarkdown(data) {
 
 
      `;
-  }
+}
 
 module.exports = generateMarkdown;
 
