@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
   return `# ${data.projectName}
   ===================================================================================
-## Table of Contents:
+# Table of Contents:
 
     *[Installation](#installation)
     *[Usage](#usage)
@@ -50,34 +50,34 @@ function generateMarkdown(data) {
     *[Languages/Applications](#languages/applications)
     *[Credits](#credits)
 
-    ## Description:
-        ${data.desc}
+# Description:
+${data.desc}
 
-    ## Installation:
-        ${data.install}
+# Installation:
+${data.install}
 
-    ## Usage:
-        ${data.usage}
+# Usage:
+${data.usage}
 
-    ## License:
-        ${data.license}
+# License:
+${data.license}
 
-    ## Image:
-    ![screenshot](${data.imageGif})
+# Image:
+![screenshot](${data.imageGif})
 
-    ## Languages/Applications:
-        ${data.language}
+# Languages/Applications:
+${data.language}
 
-    ## Repository URL:
-      ${data.appUrl} 
+# Repository URL:
+${data.appUrl} 
 
-    ## Website:
-        ${data.appUrl}   
+# Website:
+${data.appUrl}   
     
-    ## Credits:
-        ${data.creditRef}
+# Credits:
+${data.creditRef}
 
-    #### If you have any additional questions regarding this project, please contact: ${data.emailAddress}
+## If you have any additional questions regarding this project, please contact: ${data.emailAddress}
 
 
     `;
