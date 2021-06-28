@@ -1,22 +1,26 @@
-# Professional README Generator
+# Myproject
+===================================================================================
 
     ## Description:
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit amet volutpat consequat. Netus et malesuada fames ac turpis egestas sed tempus urna.
+      qwerqwer
 
     ## Installation: 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit amet volutpat consequat. Netus et malesuada fames ac turpis egestas sed tempus urna.
+      qwwerqwe
 
     ## Usage: 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit amet volutpat consequat. Netus et malesuada fames ac turpis egestas sed tempus urna.
+      qweqwer
 
     ## License: 
       MIT
 
     ## Image: 
       none
+      
     
     ## Credits: 
-      me myself and I
+      just me
+
+    ### If you have any additional questions regarding this project, please contact me at: manny@gmail
 
 
 

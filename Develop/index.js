@@ -93,7 +93,7 @@ name: 'usage',
     type: "list",
         name: "license",
             message: "Chose a license: ",
-                choices: ["Apache", "GNU", "MIT", "Mozilla", "Open"]
+                choices: ["MIT", "Apache", "Mozilla", "IBM", "ZLIB", "None"]
 },
 {
     type: 'input',
