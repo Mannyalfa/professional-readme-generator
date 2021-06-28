@@ -1,87 +1,48 @@
-//function that returns a license badge based on which license is passed in
-function renderLicenseBadge(license) {
-
-  if (license === 'MIT') {
-    return `
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-      `
-  }
-
-  else if (license === 'Apache') {
-    return `
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
-    `
-  }
-
-  else if (license === 'Mozilla') {
-    return `
-      [![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-      `
-  }
-
-  else if (license === 'IBM') {
-    return `
-      [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-      `
-  }
-
-  else if (license === 'ZLIB') {
-    return `
-      [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib) 
-        `
-  }
-  //If there is no license, return an empty string
-  else if (license === 'None') {
-    return ` `
-  }
-
-};
-
 //generate markdown for README
 function generateMarkdown(data) {
 
   return `# ${data.projectName}
-  ===================================================================================
-# Table of Contents:
+  
+  ## Table of Contents:
 
-    1.[Description](#description)
-    2.[Installation](#installation)
-    3.[Usage](#usage)
-    4.[License](#license)
-    5.[Image](#Image)
-    6.[Languages/Applications](#languages-applications)
-    7.[Repository URL](#repository-url)
-    8.[Website](#website)
-    9.[Credits](#credits)
+1.[Description](#description)
+2.[Installation](#installation)
+3.[Usage](#usage)
+4.[License](#license)
+5.[Image](#Image)
+6.[Languages/Applications](#languages-applications)
+7.[Repository URL](#repository-url)
+8.[Website](#website)
+9.[Credits](#credits)
 
-# Description
+## Description
 ${data.desc}
 
-# Installation
+## Installation
 ${data.install}
 
-# Usage
+## Usage
 ${data.usage}
 
-# License
+## License
 ${data.license}
 
-# Image
+## Image
 ![screenshot](${data.imageGif})
 
-# Languages/Applications
+## Languages/Applications
 ${data.language}
 
-# Repository URL
+## Repository URL
 ${data.appUrl} 
 
-# Website
+## Website
 ${data.appUrl}   
     
-# Credits
+## Credits
 ${data.creditRef}
 
-## If you have any additional questions regarding this project, please contact: ${data.emailAddress}
+### If you have any additional questions regarding this project, please contact: ${data.emailAddress}
 
 
     `;

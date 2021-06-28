@@ -88,14 +88,33 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "Chose a license: ",
-        choices: ["MIT", "Apache", "Mozilla", "IBM", "ZLIB", "None"]
+        message: "Choose a license: ",
+        choices: [
+            "MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", 
+            "Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", 
+            "Mozilla [![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+            "IBM [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)", 
+            "ZLIB [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib", 
+            "None [![License](https://img.shields.io/badge/no-license-lightgrey)",
+            ]
     },
     {
         type: 'checkbox',
         name: "language",
         message: "Enter languages and applications used to develop and deploy this project:",
-        choices: ["HTML", "CSS", "JavaScript", "JSON", "Inquirer", "NPM"]
+        choices: [
+            "HTML", 
+
+            "CSS",
+
+            "JavaScript",
+
+            "JSON",
+
+            "Inquirer",
+
+            "NPM"
+        ]
     },
 
     {
