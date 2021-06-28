@@ -119,7 +119,7 @@ const questions = [
 
     {
         type: 'input',
-        name: "apprepo",
+        name: "repo",
         message: 'Enter repository URL',
     },
 
