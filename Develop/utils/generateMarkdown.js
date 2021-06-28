@@ -1,5 +1,4 @@
-//Create a function that returns a license badge based on which license is passed in
-
+//function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
 
   if (license === 'MIT') {
@@ -31,14 +30,14 @@ function renderLicenseBadge(license) {
       [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib) 
         `
   }
-  // If there is no license, return an empty string
+  //If there is no license, return an empty string
   else if (license === 'None') {
     return ` `
   }
 
 };
 
-// TODO: Create a function to generate markdown for README
+//generate markdown for README
 function generateMarkdown(data) {
 
   return `# ${data.projectName}
@@ -64,7 +63,7 @@ function generateMarkdown(data) {
         ${data.license}
 
     ## Image:
-        ${data.imageGif}
+    ![screenshot](${data.imageGif})
 
     ## Languages/Applications:
         ${data.language}
@@ -78,16 +77,8 @@ function generateMarkdown(data) {
     #### If you have any additional questions regarding this project, please contact: ${data.emailAddress}
 
 
-
-
-
-
-
-
-
-     `;
+    `;
 }
-
 module.exports = generateMarkdown;
 
 

@@ -1,9 +1,9 @@
-//Include packages needed for this application
+//packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 
-//Create an array of questions for user input
+//array of questions for user input
 
 const questions = [
     {
@@ -118,7 +118,7 @@ const questions = [
 ]
 
 
-//Create a function to write README file
+//write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -129,7 +129,7 @@ function writeToFile(fileName, data) {
 }
 
 
-//Create a function to initialize app
+//initialize app
 function init() {
     inquirer
         .prompt(questions)
@@ -140,5 +140,5 @@ function init() {
         })
 }
 
-// Function call to initialize app
+//initialize app
 init();

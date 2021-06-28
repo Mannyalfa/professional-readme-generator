@@ -1,4 +1,4 @@
-# myproject
+# mystuff
   ===================================================================================
 ## Table of Contents:
 
@@ -21,7 +21,7 @@
         MIT
 
     ## Image:
-        none
+    ![screenshot](./assets/screenshot.jpg)
 
     ## Languages/Applications:
         JavaScript,JSON,Inquirer,NPM
@@ -34,3 +34,5 @@
 
     #### If you have any additional questions regarding this project, please contact: mannyalfa
 
+
+    
