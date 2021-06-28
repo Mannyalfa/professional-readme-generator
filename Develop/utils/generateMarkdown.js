@@ -5,15 +5,15 @@ function generateMarkdown(data) {
 return `# ${data.projectName}
   
 ## Table of Contents:
-1.[Description](#description)
-2.[Installation](#installation)
-3.[Usage](#usage)
-4.[License](#license)
-5.[Image](#Image)
-6.[Languages/Applications](#languages-applications)
-7.[Repository URL](#repository-url)
-8.[Website](#website)
-9.[Credits](#credits)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Image](#Image)
+6. [Languages/Applications](#languages-applications)
+7. [Repository URL](#repository-url)
+8. [Website](#website)
+9. [Credits](#credits)
 
 ## Description
 ${data.desc}
@@ -34,7 +34,7 @@ ${data.license}
 ${data.language}
 
 ## Repository URL
-${data.appUrl} 
+${data.apprepo} 
 
 ## Website
 ${data.appUrl}   
