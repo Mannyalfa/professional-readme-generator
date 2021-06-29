@@ -16,9 +16,11 @@
 
 7. [Repository URL](#repository-url)
 
-8. [Website](#website)
+8. [Test](#test)
 
-9. [Credits](#credits)
+9. [Website](#website)
+
+10. [Credits](#credits)
 
 ## Description
 A GitHub profile is an extremely important aspect of a developer's public identity. A well-crafted showcases work to other developers as well as potential employers. An important component of a GitHub profile—and one that many new developers often overlook—is the README.md file. This application uses command prompts for the user to complete typical components of a project README.
@@ -40,6 +42,8 @@ JavaScript,JSON,Inquirer,NPM
 
 ## Repository URL
 https://github.com/Mannyalfa/professional-readme-generator 
+
+## Test
 
 ## Website
 https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT?usp=sharing   
