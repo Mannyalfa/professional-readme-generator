@@ -33,7 +33,7 @@ See references below
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Image
-![screenshot](https://github.com/Mannyalfa/professional-readme-generator/blob/master/Develop/assets/screenshot.png)
+![screenshot](https://github.com/Mannyalfa/professional-readme-generator/blob/master/assets/screenshot.png)
 
 ## Languages/Applications
 JavaScript,JSON,Inquirer,NPM
