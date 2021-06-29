@@ -94,7 +94,9 @@ const questions = [
             "Apache [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", 
             "Mozilla [![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
             "IBM [![License](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)", 
-            "ZLIB [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib", 
+            "ZLIB [![License](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib",
+            "GNU [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)",
+
             "None [![License](https://img.shields.io/badge/no-license-lightgrey)",
             ]
     },
@@ -103,17 +105,17 @@ const questions = [
         name: "language",
         message: "Enter languages and applications used to develop and deploy this project:",
         choices: [
-            "HTML", 
+        "HTML",  
 
-            "CSS",
+        "CSS", 
 
-            "JavaScript",
+        "JavaScript",
 
-            "JSON",
+        "JSON",
 
-            "Inquirer",
+        "Inquirer",
 
-            "NPM"
+        "NPM"
         ]
     },
 

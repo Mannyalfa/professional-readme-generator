@@ -39,10 +39,10 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 JavaScript,JSON,Inquirer,NPM
 
 ## Repository URL
-https://github.com/Mannyalfa/professional-readme-generator  
+https://github.com/Mannyalfa/professional-readme-generator 
 
 ## Website
-https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT     
+https://drive.google.com/drive/folders/1en6yI-yIYK2medd3g-DtCpdQm0-AeMmT?usp=sharing   
     
 ## Credits
 Manny Alfaro
